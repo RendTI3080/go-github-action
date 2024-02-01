@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    environment: main
+    environment: go-github-action
     runs-on: ubuntu-latest
 
     steps:
