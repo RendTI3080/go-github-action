@@ -28,4 +28,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/access:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/go-github-action:latest
